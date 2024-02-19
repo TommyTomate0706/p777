@@ -1,0 +1,77 @@
+/* Restablecimiento de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos generales */
+  body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Título */
+  h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  /* Sección principal */
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Sección de sonido animal */
+  .sonido-animal {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+  }
+  
+  /* Imagen de sonido animal */
+  .sonido-animal img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  /* Título del sonido animal */
+  .sonido-animal h2 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  /* Botón de reproducción */
+  .btn-reproducir {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Pie de página */
+  footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
